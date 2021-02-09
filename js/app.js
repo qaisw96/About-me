@@ -5,12 +5,12 @@ let Q2 = 'Is my favourite color blue ? ' ;
 let Q3 = 'Am I Introvert ? ' ;
 let Q4 = 'So what About my favourite website? Is it Instgram ? ' ;
 let Q5 = 'Finally if you can guess what my favourite food? is it Pizza ? ' ;
-let Q6 = 'try to guess my favourite number'
-let Q7 = "try to guess top movie"
+let Q6 = 'try to guess my favourite number' ;
+let Q7 = 'try to guess one of my top movies, To be more specific; i love Sci-Fi Movies ' ;
 
 let userName = prompt('may you tell me your name ?');
 alert('welcome ' + userName + ' to my website, please click Ok to do a simple quiz') ;
-alert('it is a yes or no quiz, so you have to answer with y/n or yes/no') ;
+alert('The first five questions is a yes or no question, so you have to answer with y/n or yes/no') ;
 
 let score= 0;
 
@@ -103,7 +103,7 @@ while(chances){
     userInput=prompt('please try again you have : '+chances+' remaining!');
   }
   if (!chances){
-    alert('The correct answers is one of These : ' + ' Titanic, Captin America, Thor, Interstellar');
+    alert('The correct answers is one of These : ' + ' Lucy, Upsidedown, Soul, Limitless');
 }
 
 }
