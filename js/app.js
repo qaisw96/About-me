@@ -15,7 +15,6 @@ let score= 0;
 questOne();
 function questOne() {
   if (age.toLocaleLowerCase() === 'y' || age.toLocaleLowerCase() === 'yes' ) {
-    //console.log("correct");
     score = score + 1;
     alert('correct') ;
   } else if (age.toLocaleLowerCase() === 'n' || age.toLocaleLowerCase() === 'no') {
@@ -29,7 +28,6 @@ let color = prompt(Q2) ;
 questTwo();
 function questTwo() {
   if (color.toLocaleLowerCase() === 'n' || color.toLocaleLowerCase() === 'no' ) {
-    //console.log("correct");
     score = score + 1;
     alert('correct') ;
   } else {
@@ -40,7 +38,6 @@ let socially = prompt(Q3) ;
 questThree();
 function questThree() {
   if (socially.toLocaleLowerCase() === 'y' || socially.toLocaleLowerCase() === 'yes' ) {
-    //console.log("correct");
     score = score + 1;
     alert('correct') ;
   } else {
@@ -51,7 +48,6 @@ let website = prompt(Q4);
 questFour();
 function questFour() {
   if (website.toLocaleLowerCase() === 'n' || website.toLocaleLowerCase() === 'no' ) {
-    //console.log("correct");
     score = score + 1;
     alert('correct') ;
   } else {
@@ -62,7 +58,6 @@ let food = prompt(Q5) ;
 questFive();
 function questFive() {
   if (food.toLocaleLowerCase() === 'n' || food.toLocaleLowerCase() === 'no' ) {
-    //console.log("correct");
     score = score + 1;
     alert('correct') ;
   } else {
@@ -77,7 +72,6 @@ function questSix() {
     for (let i= 0;i<4;i++){
       attempts-=1;
       if (userInput === '9'){
-      //console.log("correct");
         score = score + 1;
         alert('correct answer!');
         break myloop;
@@ -101,7 +95,6 @@ function questSeven() {
       if (movieInput.toLowerCase() === movieList[0] || movieInput.toLowerCase() === movieList[1]|| movieInput.toLowerCase() === movieList[2]||movieInput.toLowerCase() === movieList[3]) {
 
         alert('correct answer!');
-        //console.log("correct");
         score = score + 1;
         break mygame;
       }else{
